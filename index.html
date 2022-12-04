@@ -12,79 +12,262 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
     <link rel="stylesheet" href="assets/mdb/css/mdb.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark opacity-75" style="background: #000000">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarCenteredExample"
+                aria-controls="navbarCenteredExample"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
 
-  <nav class="navbar fixed-top navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed top</a>
+        <!-- Collapsible wrapper -->
+        <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarCenteredExample"
+        >
+          <!-- Left links -->
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <!-- Navbar brand -->
+            <a class="navbar-brand me-2" href="#">
+              <img
+                      src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                      height="16"
+                      alt="MDB Logo"
+                      loading="lazy"
+                      style="margin-top: -1px;"
+              />
+            </a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Дискорд</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">База данных</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Поддержать</a>
+            </li>
+
+
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div
+            class="p-5 text-center bg-image"
+            style="
+      background-image: url('assets/img/skyrim___shrine_of_talos_by_michalkus_d8169h8z.jpg');
+      height: 1000px;
+    "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100 ">
+          <div class="text-white shadow-5">
+            <h1 class="mb-3 " style="text-shadow: 0 2px 8px rgb(128 128 128);">Reflyem</h1>
+            <h4 class="mb-3 fw-normal text-center" style="text-shadow: 0 2px 8px rgb(128 128 128);">Reflyem это сборка модов для Skyrim Special Edition,<br>которая меняет множество аспектов игры и создана для того,<br>чтобы ваше путешествие в мире Скайрима было максимально комфортным и приятным.</h4>
+            <a target="_blank" class="btn btn-outline-light btn-lg fw-normal" href="https://drive.google.com/file/d/1xD36sPv89z9q97q1HPe8toXAMzO9MWtm/view?usp=sharing" role="button"
+            >Скачать сборку</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+    <!-- Background image -->
+  </header>
 
-  <div class="card text-bg-dark text-center rounded-0" style="position: relative">
-    <img src="assets/img/skyrim___shrine_of_talos_by_michalkus_d8169h8z.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay" style="margin-top: 250px">
-      <h5 class="card-title ">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-      <button type="button" class="btn btn-primary">Primary</button>
-    </div>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus dolore, ea eos eum ut. Aspernatur aut
+    ea esse exercitationem hic laborum nulla, obcaecati odio officia pariatur possimus sit sunt.
   </div>
-
-<!--Diskord -->
-
-<div class=" border border-bottom-0 bg-dark mt-1"></div>
-<div class="container-md  border-top  border-bottom bg-light mt-3" style="height: 500px; ">
-  <a name="Discord"></a>
-    <iframe class="float-start" src="https://discord.com/widget?id=820660834819899463&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-    <p class="text-start text-center lh-base" style="padding-top: 90px"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto asperiores blanditiis dignissimos dolores, dolorum earum eligendi harum hic laborum minima natus nihil nostrum odio suscipit unde vero vitae voluptatum?</span><span>Eum laboriosam molestiae nobis perferendis quas sed tempore voluptas. Aliquid autem deserunt eaque error esse fugit, iste iure nisi numquam officiis placeat, porro quae, quidem quisquam repellendus saepe ullam voluptates?</span><span>Culpa minus molestiae non rem similique. A ab architecto assumenda at atque blanditiis delectus ea facere illo in ipsum libero, quas quod, quos ratione, rem sapiente sint suscipit temporibus voluptas?</span></p>
-
-    <div class="d-grid gap-2 col-2 mx-auto">
-      <a target="_blank" class="btn btn-primary" href="https://discord.gg/UB79chRw"  role="button">Присоеденится</a>
-    </div>
-</div>
-
-<!--BD -->
-<div class=" border border-bottom-2 bg-dark mt-1">1</div>
-<div class="container-md  border-top  border-bottom bg-light mt-3" style="height: 500px; ">
-  <a name="Discord"></a>
-  <img src="assets/img/avatar.jpg" style="width: 350px; height: auto" class="rounded float-start" alt="...">
-  <p class="text-start text-center lh-base" style="padding-top: 90px"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto asperiores blanditiis dignissimos dolores, dolorum earum eligendi harum hic laborum minima natus nihil nostrum odio suscipit unde vero vitae voluptatum?</span><span>Eum laboriosam molestiae nobis perferendis quas sed tempore voluptas. Aliquid autem deserunt eaque error esse fugit, iste iure nisi numquam officiis placeat, porro quae, quidem quisquam repellendus saepe ullam voluptates?</span><span>Culpa minus molestiae non rem similique. A ab architecto assumenda at atque blanditiis delectus ea facere illo in ipsum libero, quas quod, quos ratione, rem sapiente sint suscipit temporibus voluptas?</span></p>
-
-  <div class="d-grid gap-2 col-2 mx-auto">
-    <a target="_blank" class="btn btn-primary" href="https://discord.gg/UB79chRw"  role="button">Присоеденится</a>
+  <div>Animi commodi consequatur delectus dignissimos eos hic nihil, quisquam vitae. Eum illum iure molestiae, natus
+    necessitatibus perspiciatis quisquam vitae? Architecto est exercitationem fugiat hic nam perferendis recusandae
+    tempora tempore tenetur.
   </div>
-</div>
-
-
-<!--Boosty -->
-<div class="  mt-1">1</div>
-<div class="container-md  mt-3" style="height: 500px; ">
-  <a name="Discord"></a>
-
-  <div
-          class="
-           bg-image
-           justify-content-start
-           container-md
-"
-
-          style="
-    background-image: url('assets/img/kisspng-the-elder-scrolls-v-skyrim-dragonborn-bethesd-skyrim-fanart-5b563367d24a57.6829682215323759118614.png');
-    height: 100vh;
-    background-repeat: no-repeat;
-    width: 100vh;
-
-  "
-  >
-
-  <p class="text-start text-center lh-base" style="padding-top: 90px">Если тебе понравилась сборка и ты хочешь поддержать её развитие не только словом, но и делом, то лучший способ это оформить подписку на Boosty, либо перевести любую посильную сумму через один из сервисов для донатов.</p>
-  <div class="d-grid gap-2 col-2 mx-auto">
-    <a target="_blank" class="btn btn-primary" href="https://discord.gg/UB79chRw"  role="button">Присоеденится</a>
+  <div>Ad, delectus hic itaque officiis quae quia recusandae repudiandae? Aliquam cum dolores doloribus ex mollitia quae
+    quia, sapiente! Assumenda ducimus excepturi fuga id incidunt laboriosam molestiae mollitia non quibusdam rerum?
   </div>
-</div>
-
-</div>
+  <div>Accusantium debitis, dignissimos distinctio doloribus eligendi eum excepturi exercitationem facere fugit harum
+    illo illum ipsa ipsam iusto laboriosam laborum maxime mollitia natus neque nesciunt, nulla numquam perspiciatis
+    rerum sint temporibus!
+  </div>
+  <div>Aut corporis cumque delectus dolores ducimus et harum inventore necessitatibus, numquam quis ratione repudiandae
+    saepe velit voluptas voluptatem. Aperiam culpa cumque delectus deleniti itaque labore nihil, omnis placeat provident
+    voluptate.
+  </div>
+  <div>Animi aperiam atque dolorum earum excepturi harum id illum iure libero maiores nihil, nostrum, omnis pariatur
+    quaerat quas qui saepe sed sequi similique totam velit veniam, voluptas voluptates. Explicabo, libero.
+  </div>
+  <div>Amet commodi cumque delectus dolore exercitationem explicabo incidunt maxime nam nihil nisi nostrum nulla
+    obcaecati optio quaerat quas qui quo ratione repellat reprehenderit sapiente sequi sint sit unde vel, voluptas?
+  </div>
+  <div>At excepturi fugit iste iure natus quos voluptatum. Dicta, doloribus excepturi iste minima nulla odio similique
+    tenetur! Consequuntur cum dolore facilis magnam maiores mollitia nisi? Aperiam cum eum facilis sed.
+  </div>
+  <div>Ad alias at debitis dignissimos esse, eveniet expedita facere harum iste iusto magnam nesciunt nihil nobis,
+    repellendus suscipit tempora tempore totam. Dolore enim excepturi exercitationem facere laudantium repudiandae
+    tempore unde.
+  </div>
+  <div>Ad aperiam atque blanditiis deleniti deserunt ducimus esse est libero minus molestias nisi possimus quidem quis,
+    quos reiciendis rem sed sit soluta veritatis voluptatibus. Asperiores enim esse sapiente sunt tempore!
+  </div>
+  <div>Dicta in molestiae perspiciatis saepe sunt. Dolor ducimus esse numquam praesentium quos rem? Consequatur deserunt
+    excepturi expedita explicabo, fugiat fugit illo inventore itaque maiores modi molestiae velit, veritatis vitae,
+    voluptate.
+  </div>
+  <div>Cumque dolores et eveniet fugit harum illo, impedit inventore modi possimus quo! Aperiam atque culpa labore
+    laboriosam laborum laudantium, nisi omnis quia, quidem reiciendis rem repellat rerum temporibus veniam voluptatum?
+  </div>
+  <div>Aliquam asperiores autem corporis dignissimos distinctio, ipsam obcaecati perferendis porro praesentium,
+    provident quasi totam veniam voluptate! Adipisci animi aspernatur doloremque fuga id perferendis, provident, quaerat
+    quas reiciendis repudiandae sequi ut?
+  </div>
+  <div>Amet architecto autem cumque delectus dolor, dolorum ducimus enim eos et ipsam ipsum, itaque molestiae molestias
+    neque nobis perferendis praesentium quos recusandae rem reprehenderit sit unde, veritatis vitae voluptate
+    voluptatibus?
+  </div>
+  <div>Cupiditate eveniet incidunt possimus. Ad aliquam aliquid aperiam atque cum deleniti dolores est ex illo ipsam
+    ipsum magnam nesciunt odio praesentium, quo ratione reiciendis repellendus rerum sint soluta temporibus tenetur!
+  </div>
+  <div>Aut cum incidunt ipsa maxime, neque nostrum nulla quae rerum tenetur voluptatum. A aliquid enim est, eum eveniet
+    exercitationem facilis impedit laudantium nobis omnis perferendis quae quaerat sunt totam velit!
+  </div>
+  <div>Ab accusantium atque cumque dolorum eos error expedita inventore ipsa iste itaque, maxime nam obcaecati placeat,
+    quam quasi quibusdam quos reiciendis repellendus rerum sapiente sint vitae, voluptas? Commodi eaque, minima!
+  </div>
+  <div>Architecto dicta nobis perferendis quae, sapiente sed tenetur voluptate! Ad, cum doloremque ea esse ex excepturi
+    iste officia omnis provident recusandae. Enim excepturi exercitationem incidunt laudantium porro quasi reprehenderit
+    veniam.
+  </div>
+  <div>Accusantium aliquam consectetur, cum enim minus odio quasi saepe vitae? Cumque cupiditate impedit modi possimus
+    tempora! Consequuntur doloremque ducimus eos facere fuga, illo maiores nihil officia pariatur quidem quod quos!
+  </div>
+  <div>A accusantium, ad asperiores blanditiis delectus distinctio earum eius eos est eveniet, fuga iure laudantium
+    magnam maiores natus nemo numquam placeat quas quasi quisquam quos rem repellendus sed tempore, velit.
+  </div>
+  <div>Ad at atque beatae blanditiis consequatur, earum esse expedita facere fugiat harum itaque maxime molestiae natus
+    numquam odio provident quam repellat similique sunt unde, veritatis voluptas voluptatibus? Magni, maiores, optio.
+  </div>
+  <div>Accusamus ad adipisci amet animi, aperiam architecto atque, aut cum cupiditate dicta eligendi et id illum
+    laudantium minima natus nemo odit officia provident quae quasi ratione tenetur totam, vitae voluptatum.
+  </div>
+  <div>Accusamus amet asperiores aspernatur corporis, deleniti distinctio dolor et eveniet fugiat fugit inventore iste
+    iusto labore nemo non, officia officiis perferendis possimus provident quis sint sunt vero. Ad, obcaecati
+    voluptatibus?
+  </div>
+  <div>Cum ea eius facilis velit voluptates. Explicabo, mollitia, vel. Aliquid culpa ducimus eligendi error eum ex
+    libero, magnam nemo nihil omnis optio quam quas, quasi quia recusandae sequi, velit. Accusamus.
+  </div>
+  <div>Assumenda delectus dicta distinctio dolorem eum hic, illo impedit ipsam ipsum molestiae mollitia nobis obcaecati
+    officia ratione repellendus repudiandae sequi sunt, totam voluptatem voluptatibus! At dolorem excepturi fuga
+    provident sit.
+  </div>
+  <div>Ab consectetur dolor doloremque eaque esse eveniet exercitationem explicabo facere fugiat fugit, hic inventore
+    ipsam laudantium libero modi molestias nostrum, officiis perferendis praesentium quam quos recusandae repellendus
+    rerum soluta unde.
+  </div>
+  <div>Cum cumque distinctio earum, excepturi laboriosam laudantium necessitatibus nesciunt odio omnis quasi quo quod
+    tempore tenetur veritatis, voluptates. Eaque enim et id iure molestiae mollitia nemo, placeat quidem reprehenderit
+    unde!
+  </div>
+  <div>Debitis, dicta dolores exercitationem fuga id ipsam ipsum laudantium, magnam nostrum qui quibusdam, quidem
+    tempora veniam! Blanditiis corporis dicta, doloremque earum facere molestias non nulla perferendis perspiciatis
+    quasi reiciendis sapiente.
+  </div>
+  <div>Ea laudantium magni optio quia, repellat sapiente similique ut. Impedit minus necessitatibus porro totam
+    veritatis! Assumenda aut delectus eos explicabo id inventore iure magnam maiores quam, quis reiciendis tenetur ut!
+  </div>
+  <div>Adipisci architecto, blanditiis consequuntur est et iste itaque maxime, necessitatibus odit, possimus quos saepe
+    vitae. Accusamus accusantium consequatur, hic id ipsa laborum minima molestiae nam, non quas, qui quibusdam rem.
+  </div>
+  <div>Accusamus accusantium adipisci delectus dolores esse, fugit minus odio pariatur quod veritatis. Aliquid assumenda
+    consequuntur dolores, itaque nostrum officiis tempore! Accusantium aperiam delectus id modi quis. Adipisci nesciunt
+    possimus reiciendis.
+  </div>
+  <div>A aperiam, architecto assumenda aut blanditiis cum fugiat hic nostrum nulla quaerat quis sint temporibus, tenetur
+    ullam veniam vero voluptates! Ad architecto asperiores incidunt officia praesentium quis ullam vero voluptatibus.
+  </div>
+  <div>Eius impedit minus sed voluptatem voluptatibus! Ad amet autem cum, cumque deserunt dolores ea excepturi fuga
+    magnam magni maiores minus quia repellendus sequi vel! Animi consequatur numquam perferendis quae quo!
+  </div>
+  <div>Alias amet aperiam asperiores atque consectetur cum dignissimos ducimus eaque eos ipsum nihil numquam optio
+    pariatur quaerat quidem quod repellendus rerum, sed sint sit sunt suscipit temporibus ullam. Magni, ratione.
+  </div>
+  <div>Accusantium adipisci alias amet at aut cupiditate dolorem earum eos ex, explicabo facere fuga fugit illo itaque
+    libero natus nihil numquam possimus quam quas quibusdam repudiandae similique unde velit veniam!
+  </div>
+  <div>A ad aperiam doloremque explicabo repellat sapiente sint sit vitae voluptatem voluptatum. At aut dolor dolore
+    doloremque eius fugit, nobis odio recusandae reiciendis reprehenderit tenetur totam. Architecto impedit nobis
+    soluta.
+  </div>
+  <div>At beatae commodi consequatur cumque delectus eius eligendi illum natus officiis sapiente soluta, tempore
+    temporibus! Assumenda aut beatae debitis dolorum facere inventore, labore non obcaecati placeat quaerat quam quod
+    repellendus?
+  </div>
+  <div>Ad atque, autem beatae corporis culpa dolorem eius explicabo fugiat, ipsa laboriosam nam natus nihil officiis
+    omnis optio quam, quasi quibusdam recusandae repellat sint. Doloremque doloribus eius magni nemo optio.
+  </div>
+  <div>Ad adipisci, aliquam atque cupiditate eius, enim est illum inventore molestiae placeat ratione voluptatum. Ad,
+    consequuntur distinctio eveniet, ipsum libero maiores nobis non possimus quidem rem, soluta ullam vitae
+    voluptatibus!
+  </div>
+  <div>Architecto atque aut corporis cum cupiditate deserunt dignissimos eaque, eius ex exercitationem expedita facere
+    facilis ipsa ipsum minima natus nemo numquam placeat porro quia quisquam sed temporibus unde velit voluptate.
+  </div>
+  <div>Beatae, quidem reprehenderit. Alias amet atque blanditiis cum cumque debitis, eaque eum facere harum hic iure
+    laudantium maxime molestias nesciunt perspiciatis quibusdam quod, saepe sit, tempore vitae. Debitis, illum, ratione.
+  </div>
+  <div>Consequatur deserunt dolor doloremque ea iste iure laborum minima minus molestiae molestias, nihil nobis,
+    praesentium provident recusandae repellendus rerum sapiente sequi vel voluptas voluptates. Laudantium perspiciatis
+    saepe sed soluta tempore?
+  </div>
+  <div>Accusantium alias animi aspernatur at aut culpa debitis dolor ducimus eligendi excepturi fuga in ipsa magni,
+    maxime molestias natus officiis quae ratione reiciendis rem repellat rerum similique sint sit soluta?
+  </div>
+  <div>Ab autem dignissimos eligendi ex ipsam, iste, nobis nostrum, odit perferendis porro provident recusandae repellat
+    repudiandae rerum sed sunt voluptates. Aliquid blanditiis cum nostrum optio repellat? Dignissimos doloremque illum
+    libero?
+  </div>
+  <div>Eum fugit, minima molestias nesciunt omnis ratione reprehenderit sed temporibus unde vero! Amet explicabo in
+    ipsum tempora? Ab doloremque est laboriosam magni natus perferendis quaerat quidem quos sapiente, sequi, temporibus.
+  </div>
+  <div>Distinctio, obcaecati repellat! Debitis dolor ea esse id inventore laboriosam molestias nemo neque, nobis placeat
+    repudiandae, similique totam, velit! Aperiam consectetur cum dignissimos ducimus maxime nostrum omnis quidem. Esse,
+    inventore?
+  </div>
+  <div>Culpa esse provident quos sequi tempore voluptatem! A accusantium atque aut, autem dicta ea harum hic incidunt
+    iusto magni minus officia quae quasi qui repellat repellendus tenetur vitae voluptatem. Eum.
+  </div>
+  <div>Animi autem consectetur distinctio incidunt velit. Autem beatae consectetur doloremque eligendi harum illum in
+    ipsum labore magni molestiae nam neque obcaecati perspiciatis, porro, possimus quas quis quod rerum sapiente totam?
+  </div>
+  <div>A laboriosam obcaecati omnis perferendis sunt? Cumque cupiditate deserunt, dicta ea eaque esse harum illum
+    incidunt laboriosam magnam odio officia, perferendis possimus quia quod ratione recusandae saepe sint temporibus,
+    vel.
+  </div>
+  <div>Alias culpa cumque illum ipsa perferendis. Dolor, error explicabo minus non officia quod veniam? Amet aspernatur
+    at blanditiis cum facilis fugit illum necessitatibus obcaecati qui, ratione, repellendus rerum ullam voluptate.
+  </div>
 
 
     <!-- JavaScript Bundle with Popper -->
